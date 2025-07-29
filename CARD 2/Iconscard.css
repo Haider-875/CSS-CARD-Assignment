@@ -1,0 +1,186 @@
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 0px;
+}
+
+.main {
+  background-color: #81a9ff;
+  width: 280px;
+  height: 400px;
+  border: 1px solid #81a9ff;
+  border-radius: 5px;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+i {
+  padding-top: 30px;
+  margin-left: 100px;
+  align-items: center;
+  font-size: 60px;
+}
+.content {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn1 {
+  font-size: 16px;
+  color: white;
+  background-color: #000000;
+  border: none;
+  border-radius: 20px;
+  width: 260px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  word-spacing: 5px;
+}
+
+.main:hover {
+  color: #fdfdfd;
+  background-color: #000000e5;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn1:active {
+  color: #000000;
+  background-color: #81a9ff;
+}
+
+/* CARD 2 CSS STARTS HERE */
+
+.main-insta {
+  background-color: #fa1ca5;
+  width: 280px;
+  height: 400px;
+  border: 1px solid #fa1ca5;
+  border-radius: 5px;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.959);
+}
+
+.content-insta {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn2 {
+  font-size: 16px;
+  color: #fa1ca5;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  width: 260px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  word-spacing: 5px;
+}
+
+.main-insta:hover {
+  color: #ffffff;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.959);
+  border: none;
+  transition: 0.5s;
+}
+
+.btn2:active {
+  color: white;
+  background-color: #ff31bae5;
+}
+
+/* CARD 3 CSS STARTS HERE */
+
+.main-youtube {
+  background-color: rgb(255, 0, 0);
+  width: 280px;
+  height: 400px;
+  border: 1px solid#ff0000;
+  border-radius: 5px;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.959);
+}
+
+.content-youtube {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn3 {
+  font-size: 16px;
+  color: #ff0808;
+  background-color: #000000;
+  border: none;
+  border-radius: 20px;
+  width: 260px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  word-spacing: 5px;
+}
+
+.main-youtube:hover {
+  color: #ffffff;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.959);
+  border: none;
+  transition: 0.5s;
+}
+
+.btn3:active {
+  color: white;
+  background-color: #ff000de5;
+}
+
+.backpage {
+  text-decoration: none;
+}
+
+.card2 {
+  padding: 30px 0px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+a {
+  color: #cc1515;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  color: #f10889;
+  transition: 0.4s;
+}
+a:active {
+  color: #81a9ff;
+}
